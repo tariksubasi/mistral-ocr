@@ -106,6 +106,6 @@ def process_pdf_to_markdown(pdf_path: str, output_path: str = None) -> str:
 
 
 if __name__ == "__main__":
-    pdf_path = "kazanim.pdf"
+    pdf_path = "splitted.pdf"
     output_file = process_pdf_to_markdown(pdf_path)
     print(f"PDF processed and saved to: {output_file}")
